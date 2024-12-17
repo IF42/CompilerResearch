@@ -1,0 +1,8 @@
+.cache/asm.o: src/asm.c src/asm.h
+.cache/ast.o: src/ast.c src/ast.h
+.cache/emit.o: src/emit.c src/emit.h src/ast.h src/asm.h
+.cache/err.o: src/err.c src/err.h
+.cache/lexer.o: src/lexer.c src/lexer.h
+.cache/parser.o: src/parser.c src/parser.h src/lexer.h src/ast.h src/err.h
+.cache/main.o: app/main.c
+.cache/test.o: test/test.c

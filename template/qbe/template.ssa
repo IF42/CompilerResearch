@@ -1,0 +1,13 @@
+
+export function $_start() {
+@start
+    %exit_val = w call $main()
+    call $ExitProcess(w $exit_val)
+    ret
+}
+
+
+function w $main() {
+@start 
+    ret 0
+}

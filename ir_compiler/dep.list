@@ -1,0 +1,3 @@
+.cache/lib.o: src/lib.c src/lib.h
+.cache/main.o: app/main.c
+.cache/test.o: test/test.c
