@@ -1,0 +1,16 @@
+.cache/asm_linux_x86_64_emit.o: core/asm_linux_x86_64_emit.c \
+ core/asm_linux_x86_64_emit.h core/asm_x86_64_emit.h core/ir.h \
+ core/asm_x86_64.h
+.cache/asm_win_x86_64_emit.o: core/asm_win_x86_64_emit.c core/asm_x86_64_emit.h \
+ core/ir.h core/asm_x86_64.h
+.cache/asm_x86_64.o: core/asm_x86_64.c core/asm_x86_64_emit.h core/ir.h \
+ core/asm_x86_64.h
+.cache/asm_x86_64_emit.o: core/asm_x86_64_emit.c core/asm_x86_64_emit.h \
+ core/ir.h core/asm_x86_64.h
+.cache/err.o: core/err.c core/err.h
+.cache/ir.o: core/ir.c core/ir.h
+.cache/ast.o: ease/ast.c ease/ast.h
+.cache/ir_emit.o: ease/ir_emit.c ease/ir_emit.h ease/ast.h
+.cache/lexer.o: ease/lexer.c ease/lexer.h
+.cache/main.o: ease/main.c ease/lexer.h ease/parser.h ease/ast.h ease/ir_emit.h
+.cache/parser.o: ease/parser.c ease/parser.h ease/lexer.h ease/ast.h
